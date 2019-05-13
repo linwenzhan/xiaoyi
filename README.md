@@ -1,1 +1,1 @@
-https://github.com/linwenzhan/xiaoyi.git
+https://linwenzhan.github.io/xiaoyi/xiaoyi/index
