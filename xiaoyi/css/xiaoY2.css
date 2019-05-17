@@ -1,0 +1,112 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+.nav{
+	width: 100%;
+	height:70px;
+	position: fixed;
+	background:white;
+	z-index:5;
+}
+.navMa{
+	width: 1280px;
+	height:70px;
+	margin: 0 auto;
+}
+.navMa-one{
+	height:70px;
+	line-height:80px;
+	float: left;
+}
+.navMa-one-img{
+	width: 35px;
+	height: 30px;
+}
+.navMa-two{
+	width: 665px;
+	height:70px;
+	text-align: center;
+	line-height: 70px;
+	float: right;
+}
+.navMa-two-ul{
+	height: 70px;
+}
+.navMa-two-ul li{
+	width: 100px;
+	height: 70px;
+	float: left;
+	font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+.navMa-two-ul li a{
+	color:#666;
+}
+#gM{
+	padding-left:30px;
+	font-size: 14px !important;
+	color:#808080;
+}
+#navDm{
+	width: 100px;
+	height:70px;
+	background: white;
+	margin-left:-10px;
+	text-align: center;
+	display: none;
+}
+#navDm div:first-child{
+	margin-top:-20px;
+	height: 25px;
+}
+#navDm div img{
+	width: 15%;
+}
+#navDm div a{
+	color: #303233;
+    font-size: 12px;
+    font-weight: 200;
+    white-space: nowrap;
+    line-height: 1;
+}
+.con{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.con-iM{
+	width: 100%;
+	vertical-align: middle;
+}
+.con-tex{
+	position: absolute;
+    top: 50%;
+    text-align: center;
+    transform: translateY(-50%);
+    width: 100%;
+}
+.con-tex>div{
+	color: #fff;
+}
+.con-tex div h3{
+	font-size: 50px;
+	font-weight: 500;
+    line-height: 1.1;
+}
+.con-tex div p{
+	font-size: 24px;
+	margin-top: 38px;
+}
+.con-iM2{
+	width: 22%;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    vertical-align: middle;
+}
