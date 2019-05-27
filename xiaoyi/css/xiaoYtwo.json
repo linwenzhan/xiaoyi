@@ -27,6 +27,16 @@
 		"pary":{
 			"solTit2H1":["价值和优势"],
 			"containerImg":["img/fenxi.jpg"]
+		},
+		"indexCasees":{
+			"indexTit":{
+				"h1":["加入共创"],
+				"p":["AI SHOP根据不同企业的特性和需求提供配套服务方案，为管理者提供经营数据可视化服务，共享智慧升级，共创福利策略，构建智慧生态。"]
+			},
+			"indexCasees":{
+				"caseimg":["img/5b41b03a5d77e.png","img/5b41b04b66d32.png","img/5b41b05a1d7aa.png"],
+				"casetxt":["川味观","3COLOUR","友间公寓"]
+			}
 		}
 	}
 }

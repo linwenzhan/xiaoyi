@@ -28,6 +28,17 @@ $(function(){
 			$(".index-p1-txt").off("mousemove");
 			$(".aniText-box-1").html(data.aimain.pary.solTit2H1[0]);
 			$(".sol-p4-img img").attr("src",data.aimain.pary.containerImg[0]);
+			$(".aniText-box-4").html(data.aimain.indexCasees.indexTit.h1[0]);
+			$(".aniText-box-2").html(data.aimain.indexCasees.indexTit.p[0]);
+			$.each(data.aimain.indexCasees.indexCasees.caseimg, function(i,t) {$(".caseimg img:eq("+i+")").attr("src",t);});
+			$.each(data.aimain.indexCasees.indexCasees.casetxt, function(i,t) {$(".casetag + span:eq("+i+")").html(t);});
+			$(".caseimg:eq('0')").css("border-bottom","4px solid #ff5533");
+			$(".caseimg:eq('1')").css("border-bottom","4px solid #ff9f01");
+			$(".caseimg:eq('2')").css("border-bottom","4px solid #48d6f3");
+			$(".casetag:eq('0')").css("color","#ff5533");
+			$(".casetag:eq('1')").css("color","#ff9f01");
+			$(".casetag:eq('2')").css("color","#48d6f3");
+			$(".more-s2 a").off("mousemove");
 		}
 	});	
 })

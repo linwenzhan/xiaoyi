@@ -324,4 +324,81 @@ h3{
     height: auto;
     vertical-align: middle
 }
+.index-casees{
+	width: 100%;
+	padding: 94px 0;
+}
+.container{
+	width: 1170px;
+	height: 616.125px;
+	margin-right: auto;
+    margin-left: auto;
+}
+.index-tit{
+	width: 1170px;
+	height: 91px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.aniText-box-4{
+    font-weight: bold;
+    color: #333a40;
+    margin-bottom: 20px;
+    line-height: 1.1;
+    margin: .67em 0;
+    font-size: 46px;
+}
+.index-tit p{
+	font-size: 16px;
+    color: #7c7c7c;
+}
+.index-case{
+	width: 1170px;
+	height: 318.13px;
+}
+.case-list{
+	margin-right: -7px;
+    margin-left: -7px;
+	margin-top: 105px;
+	
+}
+.ztBoxShadow1{
+	width: 380.66px;
+	height: 308.13px;
+	position: relative;
+    min-height: 1px;
+    float: left;
+    padding-right: 7px;
+    padding-left: 7px;
+}
+.caseimg{
+    border-bottom: 4px solid #fff;
+    margin-bottom: 40px;
+}
+.caseimg img{
+	width: 100%;
+}
+.casetxt{
+	padding: 0 30px 30px;
+}
+.case-p1{
+	color: #9b9b9b;
+}
+.more-s2{
+	width: 1170px;
+	height: 42px;
+	margin-top: 40px;
+    text-align: center;
+}
+.more-s2 a {
+    display: inline-block;
+    background: #48d6f3;
+    color: #fff;
+    padding: 0 42px;
+    line-height: 40px;
+    border: 1px solid #48d6f3;
+    border-radius: 40px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
     
+}
