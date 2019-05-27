@@ -7,9 +7,26 @@
 			"img":["img/TM_2x.png","img/JD_2x.png"]
 		}
 	},
+	"navDis":{
+		"tex":[" Retina K摄像机"," Retina X box","全景相机","微单相机","智能摄像机","运动相机","行车记录仪"],
+		"img":["img/5b31e56fb0e6c.png","img/5b31e57ac3960.png","img/v10_1x.png","img/M1.png","img/4kplus.png","img/Y25.png","img/C1C.png"]
+	},
 	"con":{
 		"coniM":["img/bg1.png"],
 		"contex":["智慧商业","数据赋能新零售空间 | 智能数据化零售场景"],
 		"coniM2":["img/logo1.png"]
+	},
+	"aimain":{
+		"ailist":{
+			"title":["智慧新零售"],
+			"container":{
+				"img":["img/list1.png","img/list2.png","img/list3.png"],
+				"tex":["人脸识别 顾客画像","智能货架分析","边缘计算"]
+			}
+		},
+		"pary":{
+			"solTit2H1":["价值和优势"],
+			"containerImg":["img/fenxi.jpg"]
+		}
 	}
 }
