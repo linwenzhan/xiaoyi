@@ -38,5 +38,13 @@
 				"casetxt":["川味观","3COLOUR","友间公寓"]
 			}
 		}
+	},
+	"footer":{
+		"loadmain":{
+			"lgImg":["img/shop.png","img/mofang.png"],
+			"blistTxt":["加入共创","商务合作"],
+			"yoyTxt":["400-127-6688"],
+			"intro":["Copyright © 2018 Xiaoyi Technology co., LTD. All rights reserved. 沪ICP备14003580号"]
+		}
 	}
 }

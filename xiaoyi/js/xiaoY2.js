@@ -39,6 +39,18 @@ $(function(){
 			$(".casetag:eq('1')").css("color","#ff9f01");
 			$(".casetag:eq('2')").css("color","#48d6f3");
 			$(".more-s2 a").off("mousemove");
+			$(".lg img:eq(0)").attr("src",data.footer.loadmain.lgImg[0]);
+			$(".lg img:eq(1)").attr("src",data.footer.loadmain.lgImg[1]);
+			$(".blist p a:eq('0')").html(data.footer.loadmain.blistTxt[0]);
+			$(".blist p a:eq('1')").html(data.footer.loadmain.blistTxt[1]);
+			$(".blist p a").off("mousemove");
+			$(".you h3").html(data.footer.loadmain.yoyTxt[0]);
+			$(".intro").html(data.footer.loadmain.intro[0]);
 		}
-	});	
+	});
+//	$(".ztBoxShadow").on("mouseover",function(){
+//		$(this).animate({top:"20px"});
+//	}).on("mouseout",function(){
+//		$(this).animate({top:"0"});
+//	})
 })
