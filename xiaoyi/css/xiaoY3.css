@@ -314,8 +314,25 @@ body{
 	margin-left: -15px;
 	height: 388.18px;
 }
-
-
+.self-wrapDiv{
+	width: 295px;
+	height: 388.17px;
+	padding: 0 50px;
+	float: left;
+	position: relative;
+    min-height: 1px;
+}
+.selfimg{
+	width: 295px;
+	height: 175.172px;
+	text-align: center;
+}
+.selftxt{
+	width: 295px;
+	height:143px;
+	text-align: center;
+    margin-top: 70px;
+}
 
 
 
