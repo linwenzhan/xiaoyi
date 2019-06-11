@@ -42,6 +42,7 @@ $(function(){
 	$("#navYc").on("mousemove",function(){$(".navDis").css("display","block");$(".navDis").on("mousemove",function(){$(this).css("display","block");}).on("mouseout",function(){$(this).css("display","none");});}).on("mouseout",function(){$(".navDis").css("display","none");});
 	$("#gM").on("mousemove",function(){$("#navDm").css("display","block");$("#navDm").on("mousemove",function(){$(this).css("display","block");}).on("mouseout",function(){$(this).css("display","none");});}).on("mouseout",function(){$("#navDm").css("display","none");});
 	$(".dmJs").on("click",function(){alert("点 不 了 的点别的看看");})
+	alert("建议使用谷歌打开");
 });
 
 
