@@ -46,11 +46,14 @@ $(function(){
 			$(".blist p a").off("mousemove");
 			$(".you h3").html(data.footer.loadmain.yoyTxt[0]);
 			$(".intro").html(data.footer.loadmain.intro[0]);
+			$(".navMa-two-ul li:eq(0) a").attr("href","new_file01.html");
+			$(".navMa-two-ul li:eq(1) a").attr("href","new_file02.html");
+			$(".dmJs").on("mousedown",function(){alert("点 不 了 的点别的看看");})
+			$(".navMa-two-ul li:eq(2) a").addClass("dmJs");
+			$(".navDisIm").addClass("dmJs");
+			$(".navMa-two-ul li:eq(3) a").addClass("dmJs");
+			$(".navMa-two-ul li:eq(4) a").addClass("dmJs");
+			$(".dmJs").on("click",function(){alert("点 不 了 的点别的看看");})
 		}
 	});
-//	$(".ztBoxShadow").on("mouseover",function(){
-//		$(this).animate({top:"20px"});
-//	}).on("mouseout",function(){
-//		$(this).animate({top:"0"});
-//	})
 })

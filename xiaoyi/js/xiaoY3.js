@@ -28,6 +28,25 @@ $(function(){
 			$.each(data.aimain.ztBoxShadow.texC, function(i,t) {$(".pcont:eq("+i+")").html(t);});
 			$(".index-tit h1").html(data.aimain.containerA.tex[0]);
 			$(".index-tit p").html(data.aimain.containerA.tex[1]);
+			$.each(data.aimain.containerA.selfimg, function(i,t) {$(".selfimg:eq("+i+") img").attr("src",t);});
+			$.each(data.aimain.containerA.selftxt.h1, function(i,t) {$(".self-p2:eq("+i+")").html(t);});
+			$.each(data.aimain.containerA.selftxt.p, function(i,t) {$(".self-p3:eq("+i+")").html(t);});
+			$(".index-tit2 h1").html(data.aisever.containerB.indexTit.h1);
+			$(".index-tit2 p").html(data.aisever.containerB.indexTit.p);
+			$.each(data.aisever.containerB.fot.img, function(i,t) {$(".fot-wrapDiv:eq("+i+") img").attr("src",t);});
+			$.each(data.aisever.containerB.fot.h4, function(i,t) {$(".wrap:eq("+i+") h4").html(t);});
+			$.each(data.aisever.containerB.fot.p, function(i,t) {$(".wrap:eq("+i+") p").html(t);});
+			$(".fot1-1 a img").attr("src",data.footer.footer1.fot1[0]);
+			$.each(data.footer.footer1.fot2.tit, function(i,t) {$(".u-middle:eq("+i+") .tit").html(t);});
+			$.each(data.footer.footer1.fot2.txt, function(i,t) {$(".u-middle .txt p:eq("+i+") a").html(t);});
+			$(".navMa-two-ul li:eq(0) a").attr("href","new_file01.html");
+			$(".navMa-two-ul li:eq(1) a").attr("href","new_file02.html");
+			$(".navMa-two-ul li:eq(2) a").addClass("dmJs");
+			$(".navMa-two-ul li:eq(3) a").addClass("dmJs");
+			$(".navDisIm").addClass("dmJs");
+			$(".navMa-two-ul li:eq(4) a").addClass("dmJs");
+			$(".navMa-two-ul li:eq(5) a").addClass("dmJs");
+			$(".dmJs").on("click",function(){alert("点 不 了 的点别的看看");})
 		}
 	})
 })
