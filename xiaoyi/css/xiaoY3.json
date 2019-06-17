@@ -45,13 +45,12 @@
 		}
 	},
 	"footer":{
-		"footer1":{
-			"fot1":["img/ydilogo.png"],
-			"fot2":{
-				"tit":["主营业务","热门产品","关于小蚁"],
-				"txt":["智慧零售","智能硬件","智能行车记录仪","智能摄像机3 云台版","4K运动相机","加入小蚁","联系我们","服务条款"]
-			}
-		}
-		
+		"img":"img/ydilogo.png",
+		"tex":["主营业务","热门产品","关于小蚁"],
+		"tex2":["智慧零售","智能硬件","智能行车记录仪","智能摄像机3 云台版","4K运动相机","加入小蚁","联系我们","服务条款"],
+		"fotwie":["img/xiaoyierweima.jpg","小蚁智慧店微信"],
+		"fothm":["400-100-7702","周一至周日 09:00-19:00"],
+		"fotjDo":["img/TM_2x.png","小蚁天猫店","img/JD_2x.png","小蚁京东店"],
+		"fotpm":["Copyright © 2017 Xiaoyi Technology co., LTD. All rights reserved. "," 沪ICP备14003580号 "]
 	}
 }
