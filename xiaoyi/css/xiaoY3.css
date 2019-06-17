@@ -120,11 +120,12 @@ h4 {
 	display: none;
 }
 .navDis-con{
-	width: 60%;
+	width: 50%;
 	height:100px;
 	text-align: right;
 	margin: 0 auto;
 	padding-top: 16px;
+	min-width: 780px;
 }
 .navDisR{
 	width: 110px;
@@ -199,12 +200,11 @@ h4 {
 }
 .aimain{
 	width: 100%;
-	height: 2200px;
 }
 .ailist{
 	padding:94px 0;
 	width: 100%;
-	height: 649.72px;
+	height: 450px;
 }
 .container{
 	width: 61.5%;
